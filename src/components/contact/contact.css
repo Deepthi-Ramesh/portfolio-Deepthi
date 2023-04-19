@@ -1,0 +1,171 @@
+.contact_con{
+    width: 100%;
+    height: 70vh;
+    color: white;
+    padding: 1rem;
+    margin: 6rem 0 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.contact_head{
+    font-size: 3rem;
+    color: #46BD97;
+}
+.contact_items{
+    margin-top: 2rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.contact_items input{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    outline: none;
+}
+.form {
+    width: 100%;
+    height: 4rem; 
+    margin: 1rem 0;
+}
+.form2{
+    width: 100%;
+    height: 10rem; 
+}
+.form2 textarea{
+    margin: 1rem 0 2rem 0;
+}
+.contact_items input,.form2 textarea{
+    background-color:rgb(49, 49, 49);
+    outline: none;
+    color: aliceblue;
+    width: 100%;
+    height: 100%;
+    font-size: 1.5rem;
+    padding: 1rem;
+    resize: none;
+}
+.contact_items input:focus,.form2 textarea:focus{
+    transition: 50ms ease-in-out;
+    border-bottom: 4px solid #46BD97;
+    
+}
+.contact_items input:focus::placeholder,.form2 textarea:focus::placeholder{
+    color: transparent;
+}
+.contact_btn{
+    padding: 1.2rem ;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    width: 15rem;
+    background-color: transparent;
+    color: rgb(109, 193, 166);
+    outline: none;
+    border: 1px solid  rgb(109, 193, 166);
+    
+    font-family: 'Tilt Neon', cursive;
+}
+.contact_btn:hover{
+    background-color:rgb(109, 193, 166) ;
+    color: black; 
+    /* animation-name: anime;
+    animation-duration: 1s;
+    animation-direction: alternate; */
+    background: linear-gradient(to left, rgb(109, 193, 166) 50%,transparent 0% ) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+}
+.contact_para{
+    font-size: 1.2rem;
+    line-height:1.7rem;
+    margin-bottom: 1rem;
+}
+input{
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width:600px){
+    .contact_con{
+        margin-top: 34rem;
+        padding: 0;
+    }
+    .contact_head{
+        font-size: 2.5rem;
+    }
+    .contact_items{
+        flex-direction: column;
+        width: 98%;
+        margin: 3rem 0;
+    }
+    .contact_para{
+        width: 96%;
+        font-size: 1.14rem;
+        line-height:1.7rem;
+        margin-bottom: 1rem;
+        font-weight: 200;
+        text-align: justify;
+        margin: 1rem 0;
+    }
+    .form input{
+        height: 2.5rem;
+        width: 90%;
+        outline: none;
+    }
+    input{
+        border: none;
+        outline: none;
+    }
+    .form2 textarea{
+        width: 90%;
+        outline: none;
+        border: none;
+    }
+    .contact_btn{
+        width: 10rem
+    }
+}
+@media (min-width:600px) and (max-width:1000px){
+    .contact_con{
+        margin-top: 13rem;
+        padding: 0;
+        
+    }
+    .contact_head{
+        font-size: 2.5rem;
+    }
+    .contact_items{
+        flex-direction: column;
+        width: 80%;
+        margin: 3rem auto 0 auto;
+    }
+    .contact_para{
+        width: 96%;
+        font-size: 1.4rem;
+        line-height:1.8rem;
+        margin-bottom: 1rem;
+        font-weight: 200;
+        text-align: justify;
+        margin: 1rem 0;
+    }
+    .form input{
+        height: 2.5rem;
+        width: 90%;
+        outline: none;
+    }
+    input{
+        border: none;
+        outline: none;
+    }
+    .form2 textarea{
+        width: 90%;
+        outline: none;
+        border: none;
+    }
+    .contact_btn{
+        width: 10rem;
+    }
+}
