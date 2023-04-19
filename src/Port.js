@@ -1,4 +1,4 @@
-
+import "./App.css";
 import About from './components/About/About';
 import Certifications from './components/Certifiactions/certifiactions';
 import Contact from './components/contact/contact';
@@ -9,7 +9,7 @@ import Skills from './components/myskills/skills';
 import Portfolio from './components/portfolio/portfolio';
 function Port() {
   return (
-    <div className="App">
+    <div className="port">
       <header><Header/></header>
       <div><Home/></div>
        <div><About/></div> 

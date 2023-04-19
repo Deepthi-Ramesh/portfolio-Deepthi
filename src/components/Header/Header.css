@@ -5,14 +5,14 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 3rem;
+    padding: 0 2rem;
     border-bottom: 0.1px solid rgb(130, 130, 130);
 }
 .nav_logo{
-    width: 5%;
+    width: 7%;
     height:100%;
     padding: 0.3rem;
-    margin-left: 2rem;
+    margin-left: 0;
 }
 .nav_bar{
     width: 50%;
@@ -44,8 +44,8 @@
 }
 @media screen and (max-width:600px){
     .nav_con{
-        padding: 0 0.5rem ;
-        height: 27%;
+        padding: 0 ;
+        height: 25%;
     }
     .nav_items{
         flex-direction: column;
@@ -79,13 +79,13 @@
         color: aqua;
     }
     .nav_logo{
-       width: 15%;
-       margin-left:0;
+       width: 22%;
+       padding: 0;
     }
 }
 @media (min-width:600px) and (max-width:1000px){
     .nav_con{
-        padding: 0 0.5rem ;
+        padding: 0 ;
         height: 27%;
     }
     .nav_items{

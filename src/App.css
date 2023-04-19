@@ -18,6 +18,9 @@
    overflow-x: hidden; 
    cursor: pointer;
 }
+.port{
+  
+}
 @media (min-width:0px) and (max-width:600px){
   .App{
     width: 100%;
