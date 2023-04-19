@@ -1,11 +1,8 @@
 import React, { useEffect } from "react";
 import "./sphere.css";
-
-// Importing TagCloud package
 import TagCloud from "TagCloud";
 
 const Sphere = () => {
-  // Animation settings for Text Cloud
   useEffect(() => {
     return () => {
       const container = ".tagcloud";
@@ -38,7 +35,6 @@ const Sphere = () => {
   return (
     <>
       <div className="text-shpere">
-        {/* span tag className must be "tagcloud"  */}
         <span className="tagcloud"></span>
       </div>
     </>
