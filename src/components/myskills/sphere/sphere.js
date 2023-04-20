@@ -3,6 +3,7 @@ import "./sphere.css";
 import TagCloud from "TagCloud";
 
 const Sphere = () => {
+
   useEffect(() => {
     return () => {
       const container = ".tagcloud";
@@ -31,7 +32,6 @@ const Sphere = () => {
       TagCloud(container, texts, options);
     };
   }, []);
-
   return (
     <>
     <div className="app-outer">
