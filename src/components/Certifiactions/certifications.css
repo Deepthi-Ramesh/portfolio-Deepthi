@@ -46,3 +46,20 @@
     color: #46BD97;
     margin-top: 1rem;
 }
+@media (min-width:0px) and (max-width:600px) {
+    .certi-para{
+        width: 100%;
+        font-size: 1.1rem;
+        margin-top: 1rem;
+        line-height:2.3rem;
+    }
+    .certi-head{
+        font-size: 2rem;
+        margin-top: 2rem;
+    }
+    .certi-intern{
+        font-size: 1rem;
+        color: #46BD97;
+        margin-top: 1rem;
+    }
+}

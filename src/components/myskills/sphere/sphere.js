@@ -34,9 +34,13 @@ const Sphere = () => {
 
   return (
     <>
+    <div className="app-outer">
+      <div className="app-innner">
       <div className="text-shpere">
         <span className="tagcloud"></span>
       </div>
+    </div>
+     </div>
     </>
   );
 };
