@@ -7,6 +7,7 @@ const Sphere = () => {
   useEffect(() => {
     return () => {
       const container = ".tagcloud";
+      let radii;
       const texts = [
         "HTML",
         "CSS",
@@ -22,8 +23,16 @@ const Sphere = () => {
         "AngularJs"
       ];
 
+      function radiusValue() {
+        if (window.screen.width <= 778) {
+          radii = 150;
+        } else {
+          radii = 290;
+        }
+        return radii;
+      }
       const options = {
-        radius: 300,
+        radius: radiusValue(),
         maxSpeed: "normal",
         initSpeed: "normal",
         keep: true,

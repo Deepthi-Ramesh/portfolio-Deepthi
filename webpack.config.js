@@ -1,7 +1,10 @@
-{
-    modules: {
-      loaders: [
-        { test: /\.html$/, loader: 'html-loader' }
-      ]
-    }
-  }
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
+      },
+    ],
+  },
+};
