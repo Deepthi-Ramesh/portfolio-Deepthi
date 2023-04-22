@@ -1,6 +1,5 @@
 import "./App.css";
 import About from './components/About/About';
-import Certifications from './components/Certifiactions/certifiactions';
 import Contact from './components/contact/contact';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';

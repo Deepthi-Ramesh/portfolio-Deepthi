@@ -6,7 +6,7 @@ function About(){
             <div className="abt_head">ABOUT</div> 
             <div className="abt_items">
                 <div className="abt_img">
-                    <img src="./images/Me.png"/>
+                    <img src="./images/Me.png" alt=""/>
                 </div>
                 <div className="abt_para">
                     <p>

@@ -11,7 +11,7 @@ function Certifications(){
                     </p>
                 </div>
                 <div className="certi-img">
-                    <img src="./images/full.png"/>
+                    <img src="./images/full.png" alt=""/>
                 </div> 
                 <div className="certi-para">
                     <p>
@@ -19,7 +19,7 @@ function Certifications(){
                     </p>
                 </div>           
                 <div className="certi-img">
-                    <img src="./images/React.png"/>
+                    <img src="./images/React.png" alt=""/>
                 </div>
             </div>
             <div className="certi-head">ACHIEVEMENTS</div> 
@@ -32,7 +32,7 @@ function Certifications(){
                     </p>
                 </div>         
                 <div className="certi-img">
-                    <img src="./images/sih.jpeg"/>
+                    <img src="./images/sih.jpeg" alt=""/>
                 </div>
             </div>
             <div className="certi-head">EXPERIENCE</div> 

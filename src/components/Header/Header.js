@@ -7,7 +7,7 @@ function Header(){
   return(
      <div className="nav_con">
         <div className="nav_logo">
-          <img src="./images/logo1.png" className="logo_img"/>
+          <img src="./images/logo1.png" className="logo_img" alt=""/>
         </div>
         <div className="nav_bar">
           <ul className={clicked ? 'nav_items active': 'nav_items'}>

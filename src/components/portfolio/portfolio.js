@@ -1,7 +1,6 @@
 import React from "react";
 import Griditem from "./port_griditem";
 import "./portfolio.css";
-import { useState } from "react";
 import { images } from "../data";
 function Portfolio(){
    
