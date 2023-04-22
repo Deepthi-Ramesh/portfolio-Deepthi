@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./skills.css";
 import Sphere from "./sphere/sphere";
 import { Mode } from "@mui/icons-material";
-import Model from "./model";
+
 function Skills(){
     const history = useNavigate();
     return(
