@@ -20,7 +20,8 @@ function Skills(){
         </div> 
               </div>
               <div className="skills_sphere">
-               <Sphere />
+               {/* <Sphere /> */}
+               <img src="./images/rename.png" alt="" id ="dummy-sphere" />
               </div>
             </div>
         </div>
