@@ -98,6 +98,7 @@ input{
     }
     .contact_head{
         font-size: 2.5rem;
+        margin-bottom: 2rem;
     }
     .contact_items{
         flex-direction: column;
