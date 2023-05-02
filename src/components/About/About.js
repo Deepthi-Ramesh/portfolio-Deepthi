@@ -10,12 +10,7 @@ function About(){
                 </div>
                 <div className="abt_para">
                     <p>
-                       Since 2021 ,when I started my 2nd Year Engineering , I was very interested in building
-                        attractive Websites and now that interest
-                        made me a full stack Developer !  I’m very excited 
-                        doing projects and  Super cool designs that would
-                        be attractive . I’ve always been someone who has both
-                        a creative and a logical side.
+                    My fascination in creating beautiful websites began in 2021, when I began my second year of engineering, and it has since led to my being a full stack developer! Creating projects and extremely stunning designs makes me very happy. I've always been a creative person who also has a logical side.
                     </p>
                 </div>
             </div>
