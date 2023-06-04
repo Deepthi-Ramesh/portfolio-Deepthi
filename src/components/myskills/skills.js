@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./skills.css";
+import dummy from "./dummy/dummy.html"
 import Sphere from "./sphere/sphere";
 //  var htmlContent = require('./index.html');
 function Skills(){
@@ -20,11 +21,9 @@ function Skills(){
         </div> 
               </div>
               <div className="skills_sphere">
-                {/* <Sphere /> */}
-                {/* <div dangerouslySetInnerHTML={ {__html: htmlContent} } /> */}
-                {/* <object data="./index.html" width={500} height={500}></object> */}
-                {/* <iframe src="./index.html"></iframe> */}
-               <img src="./images/rename.png" alt="" id ="dummy-sphere" /> 
+                
+                   <Sphere />  
+               
               </div>
             </div>
         </div>

@@ -6,7 +6,7 @@ function Contact(){
 
   const sendEmail = (e) => {
     e.preventDefault();
-
+    document.getElementsByClassName("alert").innerHTML="Alert";
     emailjs.sendForm(
         'service_9nutsld',
          'template_0cv60ye',
@@ -14,6 +14,8 @@ function Contact(){
           'xhH4yfrE9ey0IPJun')
       .then((result) => {
           console.log(result.text);
+          alert("Sent");
+          
       }, (error) => {
           console.log(error.text);
       });
@@ -37,6 +39,7 @@ function Contact(){
                 </div>
                 <div>
                 <button className="contact_btn" type="submit">Send Me</button>
+                <p className='alert'></p>
                 </div>
                 </form>
             </div>
