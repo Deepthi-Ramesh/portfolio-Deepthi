@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./skills.css";
-import dummy from "./dummy/dummy.html"
+//import dummy from "./dummy/dummy.html"
 import Sphere from "./sphere/sphere";
 //  var htmlContent = require('./index.html');
 function Skills(){
@@ -22,7 +22,7 @@ function Skills(){
               </div>
               <div className="skills_sphere">
                 
-                   <Sphere />  
+                   <Sphere />   
                
               </div>
             </div>

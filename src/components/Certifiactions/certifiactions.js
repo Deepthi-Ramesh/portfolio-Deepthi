@@ -3,6 +3,7 @@ import "./certifications.css";
 function Certifications(){
     return(
         <div className="certi-con">
+            
             <div className="certi-head">CERTIFICATIONS</div> 
             <div className="certi-items">
             <div className="certi-para">
@@ -21,7 +22,16 @@ function Certifications(){
                 <div className="certi-img">
                     <img src="./images/React.png" alt=""/>
                 </div>
+                <div className="certi-para">
+                    <p>
+                    I have completed my Certification in  MYSQL  from Scaler.
+                    </p>
+                </div>
+                <div className="certi-img">
+                    <img src="./images/sqlcertificate.png" alt=""/>
+                </div> 
             </div>
+
             <div className="certi-head">ACHIEVEMENTS</div> 
             <div className="certi-intern">Team Leader</div> 
             <div className="certi-items">

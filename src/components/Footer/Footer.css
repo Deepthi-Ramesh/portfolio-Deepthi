@@ -2,12 +2,13 @@
    border-top: 1px solid rgb(126, 123, 123); ;
    width: 100%;
    height: 34vh;
-   margin-top: 10rem;
+   margin-top: 13rem;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   padding-top: 6rem;
+
+   padding: 8rem 0 0 0;
 }
 .social-media{
     width: 29%;
@@ -17,7 +18,7 @@
     margin-bottom: 5rem;
 }
 .social-media .icon{
-    padding: 0.7rem;
+    padding: 0.5rem;
     border-radius: 70%;
     border: 3px solid transparent;
     background-color: #898888;
@@ -29,7 +30,7 @@
     border: 3px solid  rgb(109, 193, 166);
 }
 .text {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     color: rgb(109, 193, 166);
     margin-bottom: 2rem;
     text-shadow:2px  rgb(228, 225, 225);

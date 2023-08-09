@@ -13,16 +13,16 @@ function Footer(){
                     onClick={() => {
                         window.open("https://www.linkedin.com/in/deepthi-m-r-9205911b9/", "_blank")
                       }} >
-                        <Icon icon="la:linkedin-in" fontSize={"3rem"} className="size-icon" style={{ color:"black"}}/></div>
+                        <Icon icon="la:linkedin-in" fontSize={"2.5rem"} className="size-icon" style={{ color:"black"}}/></div>
                     <div className="icon"  onClick={() => {
                         window.open("https://github.com/Deepthi-Ramesh", "_blank")
-                      }}><Icon icon="mingcute:github-fill" fontSize={"3rem"} className="size-icon" style={{ color:"black"}}/></div>
+                      }}><Icon icon="mingcute:github-fill" fontSize={"2.5rem"} className="size-icon" style={{ color:"black"}}/></div>
                     <div className="icon"  onClick={() => {
                         window.open("mailto: deepthimr1411@gmail.com", "_blank")
-                      }}><Icon icon="tabler:mail-forward"  fontSize={"3rem"} className="size-icon" style={{ color:"black"}}/></div>
+                      }}><Icon icon="tabler:mail-forward"  fontSize={"2.5rem"} className="size-icon" style={{ color:"black"}}/></div>
                     <div className="icon"  onClick={() => {
                         window.open("https://www.instagram.com/its_me_deepuz/", "_blank")
-                      }}><Icon icon="entypo-social:instagram" fontSize={"3rem"} className="size-icon" style={{ color:"black"}}/></div>
+                      }}><Icon icon="entypo-social:instagram" fontSize={"2.5rem"} className="size-icon" style={{ color:"black"}}/></div>
                  </div>
             
                  <div className="foot-2-loc">

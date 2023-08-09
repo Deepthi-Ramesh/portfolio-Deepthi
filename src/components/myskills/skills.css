@@ -2,8 +2,8 @@
     width: 95%;
     height: 70vh;
     color: white;
-    padding: 1rem;
-    margin: 40rem 0 0 1rem;
+    padding:1rem;
+    margin: 35rem 0 0 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between
@@ -21,10 +21,10 @@
     align-items: flex-start;
 }
 .skills_para{
-    width: 45%;
-    font-size: 1rem;
+    width: 48%;
+    font-size: 1.26rem;
     margin-top: 2rem;
-    line-height:3.2rem;
+    line-height:2.7rem;
 }
 .home_btn{
     padding: 1rem ;

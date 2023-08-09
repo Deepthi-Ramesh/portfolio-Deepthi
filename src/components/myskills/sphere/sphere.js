@@ -1,15 +1,9 @@
+import TagCloud from "TagCloud";
 import React, { useEffect } from "react";
 import "./sphere.css";
-import TagCloud from "TagCloud";
 
-const Sphere = () => {
-
-  useEffect(() => {
-    return () => {
-      const container = ".tagcloud";
-      let radii;
-      const texts = [
-        "HTML",
+export const text = [
+    "HTML",
         "CSS",
         "SASS",
         "JavaScript",
@@ -20,38 +14,35 @@ const Sphere = () => {
         "GITHUB",
         "C++",
         "MERN",
-        "AngularJs"
-      ];
+        "AngularJs",
 
-      function radiusValue() {
-        if (window.screen.width <= 778) {
-          radii = 150;
-        } else {
-          radii = 290;
-        }
-        return radii;
-      }
+] 
+
+function Sphere() {
+  useEffect(() => {
+      const container = document.querySelector(".tagcloud");
+
+      console.log(container);
+      console.log(text);
+      console.log("TagCloud", TagCloud);
+
       const options = {
-        radius: radiusValue(),
+        radius: 250,
         maxSpeed: "normal",
         initSpeed: "normal",
         keep: true,
       };
 
-      TagCloud(container, texts, options);
-    };
+      TagCloud(container, text, options);
   }, []);
+
   return (
-    <>
-    <div className="app-outer">
-      <div className="app-innner">
+    <div>
       <div className="text-shpere">
         <span className="tagcloud"></span>
       </div>
     </div>
-     </div>
-    </>
   );
-};
+}
 
 export default Sphere;

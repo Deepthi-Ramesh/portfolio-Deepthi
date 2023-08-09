@@ -9,11 +9,11 @@
     color: #46BD97;
 }
 .portfolio_abt{
-    font-size: 1rem;
-    margin-top: 2rem;
+    font-size: 1.4rem;
+    margin-top: 1.8rem;
     text-indent: 5rem;
-    line-height:3rem;
-    word-spacing: 0.5rem;
+    line-height:2.6rem;
+    word-spacing: 0.4rem;
 }
 .grid_con{
     width: 100%;
@@ -41,7 +41,7 @@
 }
  .locked-product {
     position: relative;
-    top: -21.8rem;
+    top: -18.8rem;
    display: flex;
    flex-direction: column;
    justify-content: center;

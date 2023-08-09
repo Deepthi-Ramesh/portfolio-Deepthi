@@ -3,9 +3,12 @@
     height: 70vh;
     color: white;
     padding: 1rem;
-    margin: 6rem 0 0 1rem;
+    margin: 3rem 0 0 1rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+.contact_home{
+    width: 65%;
 }
 .contact_head{
     font-size: 3rem;
@@ -13,7 +16,7 @@
 }
 .contact_items{
     margin-top: 2rem;
-    width: 50%;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -26,14 +29,15 @@
     justify-content: space-between;
     outline: none;
 }
+
 .form {
-    width: 100%;
-    height: 4rem; 
+    width: 90%;
+    height: 3rem; 
     margin: 1rem 0;
 }
 .form2{
-    width: 100%;
-    height: 10rem; 
+    width: 90%;
+    height: 8rem; 
 }
 .form2 textarea{
     margin: 1rem 0 2rem 0;
@@ -57,10 +61,10 @@
     color: transparent;
 }
 .contact_btn{
-    padding: 1.2rem ;
-    font-size: 1.2rem;
+    padding: 1rem ;
+    font-size: 1.1rem;
     margin-top: 4rem;
-    width: 15rem;
+    width: 11rem;
     background-color: transparent;
     color: rgb(109, 193, 166);
     outline: none;
@@ -79,7 +83,8 @@
     transition: .5s ease-out;
 }
 .contact_para{
-    font-size: 1.2rem;
+    margin-top: 7rem;
+    font-size: 1.1rem;
     line-height:1.7rem;
     margin-bottom: 1rem;
 }
@@ -89,6 +94,11 @@ input{
 }
 .wrap-form{
     width: 100%;
+}
+.map{
+    margin: 6rem;
+    width: 35%;
+
 }
 
 @media screen and (max-width:600px){
