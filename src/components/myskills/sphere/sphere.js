@@ -12,7 +12,7 @@ export const text = [
         "C",
         "NodeJS",
         "GITHUB",
-        "C++",
+        "MYSQL",
         "MERN",
         "AngularJs",
 
@@ -27,7 +27,7 @@ function Sphere() {
       console.log("TagCloud", TagCloud);
 
       const options = {
-        radius: 250,
+        radius: 240,
         maxSpeed: "normal",
         initSpeed: "normal",
         keep: true,
