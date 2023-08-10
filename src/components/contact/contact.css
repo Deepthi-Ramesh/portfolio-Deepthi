@@ -98,6 +98,7 @@ input{
 .map{
     margin: 6rem;
     width: 35%;
+    height: 100%;
 
 }
 
@@ -105,6 +106,12 @@ input{
     .contact_con{
         margin-top: 25rem;
         padding: 0;
+        flex-direction: column;
+    }
+    .contact_home{
+        width: 100%;
+        margin-top: 0;
+    
     }
     .contact_head{
         font-size: 2.5rem;
@@ -113,7 +120,7 @@ input{
     .contact_items{
         flex-direction: column;
         width: 98%;
-        margin: 3rem 0;
+        margin:0;
     }
     .contact_para{
         width: 96%;
@@ -122,11 +129,11 @@ input{
         margin-bottom: 1rem;
         font-weight: 200;
         text-align: justify;
-        margin-top: 4rem ;
+        margin-top: 0rem ;
     }
     .form input{
         height: 2.5rem;
-        width: 90%;
+        width: 100%;
         outline: none;
     }
     input{
@@ -134,27 +141,32 @@ input{
         outline: none;
     }
     .form2 textarea{
-        width: 90%;
+        width: 100%;
         outline: none;
         border: none;
     }
     .contact_btn{
         width: 10rem
     }
+    .map{
+      display: none;
+    }
 }
 @media (min-width:600px) and (max-width:1000px){
     .contact_con{
-        margin-top: 13rem;
         padding: 0;
-        
+        flex-direction: column;
     }
+.contact_home{
+    width: 100%;
+}
     .contact_head{
         font-size: 2.5rem;
     }
     .contact_items{
         flex-direction: column;
-        width: 80%;
-        margin: 3rem auto 0 auto;
+        width: 100%;
+        margin: 1rem 0 0 0;
     }
     .contact_para{
         width: 96%;
@@ -181,5 +193,16 @@ input{
     }
     .contact_btn{
         width: 10rem;
+    }
+    .map{
+        width: 100%;
+        border: 1px solid red;
+        margin-left: -1rem;
+        padding: 1rem;
+        
+    }
+    .map iframe{
+        width: 100%;
+        height: 40vh;
     }
 }

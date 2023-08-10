@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Alert from '@mui/material/Alert';
 import "./contact.css";
 function Contact(){
     const form = useRef();
@@ -30,13 +31,13 @@ function Contact(){
               </div>
               <form className='wrap-form' ref={form} onSubmit={sendEmail}>
                 <div className="form">
-                    <input type="text" placeholder="Name" name="user_name"/>
+                    <input type="text" placeholder="Name" name="user_name" required/>
                 </div>
                 <div className="form">
-                <input type="email" placeholder="Email" name="user_email"/>
+                <input type="email" placeholder="Email" name="user_email" required/>
                 </div>
                 <div className="form2">
-                    <textarea type="text" placeholder="Message" id="message" name="message" ></textarea>
+                    <textarea type="text" placeholder="Message" id="message" name="message" required ></textarea>
                 </div>
                 <div>
                 <button className="contact_btn" type="submit">Send Me</button>

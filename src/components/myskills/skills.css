@@ -54,7 +54,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-top: -5rem;
+   margin-top: -6rem;
 }
 #dummy-sphere{
     width: 75%;
@@ -97,6 +97,7 @@
         width: 100%;
         justify-content: center;
         align-items: center;
+     
     }
     #dummy-sphere{
         width: 100%;
@@ -138,6 +139,8 @@
         width: 100%;
         justify-content: center;
         align-items: center;
+        margin-left: -21rem;
+        margin-top: 10rem;
     }
 }
 .tagcloud {
