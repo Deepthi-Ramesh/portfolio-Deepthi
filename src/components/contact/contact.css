@@ -15,13 +15,13 @@
     color: #46BD97;
 }
 .contact_items{
-    margin-top: 2rem;
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
+ 
 }
 .contact_items input{
     display: flex;
@@ -83,7 +83,7 @@
     transition: .5s ease-out;
 }
 .contact_para{
-    margin-top: 7rem;
+    margin-top: 3rem;
     font-size: 1.1rem;
     line-height:1.7rem;
     margin-bottom: 1rem;

@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import "./sphere.css";
 
 export const text = [
-    "HTML",
+       "HTML",
         "CSS",
         "SASS",
         "JavaScript",

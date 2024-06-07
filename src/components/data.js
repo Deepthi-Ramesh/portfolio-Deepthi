@@ -38,5 +38,22 @@
     id:8,
     image:"./images/project_8.jfif",
     link:"https://frontend-adip-deployment.vercel.app/",
- }
+ },
+ {
+   id:9,
+   image:"./images/project_9.png",
+   link:"https://behance-clone-virid.vercel.app/",
+},
+{
+   id:10,
+   image:"./images/project_10.png",
+   link:"https://rentify-frontend-coral.vercel.app/",
+},
+{
+   id:11,
+   image:"./images/project_11.png",
+   link:"https://github.com/Deepthi-Ramesh/StudentDB",
+}
+
+ 
 ]

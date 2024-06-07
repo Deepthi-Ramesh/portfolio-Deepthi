@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import Alert from '@mui/material/Alert';
 import "./contact.css";
 function Contact(){
     const form = useRef();

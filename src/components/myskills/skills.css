@@ -3,10 +3,11 @@
     height: 70vh;
     color: white;
     padding:1rem;
-    margin: 35rem 0 0 1rem;
+    margin: 55rem 0 0 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
+
 }
 .skills_head{
     font-size: 3rem;
